@@ -1,0 +1,223 @@
+
+body {
+  background-color: #1a1a1a !important;
+  color: white;
+}
+
+.login-wrapper {
+  height: 100vh;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: #2a2a2a;
+  border-radius: 12px;
+  padding: 40px;
+  width: 400px;
+}
+
+
+.nav-brand {
+  color: #f5a623 !important;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logout-btn {
+  background: #f5a623 !important;
+  color: black !important;
+  font-weight: bold;
+  border: none;
+}
+
+.logout-btn:hover {
+  background: #e09400 !important;
+}
+
+/* App Layout */
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 240px;
+  min-height: 100vh;
+  background: #1e1e1e;
+  border-right: 1px solid #333;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar-brand {
+  padding: 0 20px 10px 20px;
+  color: #f5a623;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-link {
+  display: block;
+  padding: 12px 20px;
+  color: #aaaaaa;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.sidebar-link:hover {
+  background: #2a2a2a;
+  color: #f5a623;
+}
+
+.sidebar-link.active {
+  background: #2a2a2a;
+  color: #f5a623;
+  border-left: 3px solid #f5a623;
+}
+
+/* Content Area */
+.content-area {
+  margin-left: 240px;   /* ✅ push content right of sidebar */
+  width: 100%;
+}
+
+.main-content {
+  padding: 24px;
+}
+
+/*user icon*/
+.dropdown-item {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background: #f5f5f5;
+}
+
+/*calender*/
+/* INPUT FIELD */
+/*.custom-date-input {*/
+/*  background-color: #212529 !important;*/
+/*  color: white !important;*/
+/*  border: 1px solid #333 !important;*/
+/*  padding-right: 40px;*/
+/*}*/
+
+/*.custom-date-input::placeholder {*/
+/*  color: #aaa !important;   !* brighter *!*/
+/*  opacity: 1;*/
+/*}*/
+
+/*.custom-date-input:focus {*/
+/*  border-color: #f5a623 !important;*/
+/*  box-shadow: none !important;*/
+/*}*/
+
+/*!* calendar icon *!*/
+/*.calendar-icon {*/
+/*  position: absolute;*/
+/*  right: 10px;*/
+/*  top: 50%;*/
+/*  transform: translateY(-50%);*/
+/*  cursor: pointer;*/
+/*  color: #aaa;*/
+/*}*/
+
+/*.calendar-icon:hover {*/
+/*  color: #f5a623;*/
+/*}*/
+
+
+/*!* CALENDAR POPUP *!*/
+/*.react-datepicker {*/
+/*  background-color: #1c1c1c !important;*/
+/*  border: 1px solid #333 !important;*/
+/*  color: white !important;*/
+/*}*/
+
+/*!* HEADER *!*/
+/*.react-datepicker__header {*/
+/*  background-color: #FFCA2C !important;*/
+/*  border-bottom: 1px solid #333 !important;*/
+/*}*/
+
+/*!* MONTH + YEAR DROPDOWN *!*/
+/*.react-datepicker__month-select,*/
+/*.react-datepicker__year-select {*/
+/*  background-color: #1c1c1c;*/
+/*  color: white;*/
+/*  border: 1px solid #333;*/
+/*}*/
+
+/*!* DAYS TEXT *!*/
+/*.react-datepicker__day-name,*/
+/*.react-datepicker__day {*/
+/*  color: white !important;*/
+/*}*/
+
+/*!* HOVER DAY *!*/
+/*.react-datepicker__day:hover {*/
+/*  background-color: #333 !important;*/
+/*}*/
+
+/*!* SELECTED DAY *!*/
+/*.react-datepicker__day--selected {*/
+/*  background-color: #f5a623 !important;*/
+/*  color: black !important;*/
+/*}*/
+
+/*!* TODAY *!*/
+/*.react-datepicker__day--today {*/
+/*  border: 1px solid #f5a623;*/
+/*}*/
+
+/*!* NAVIGATION ARROWS *!*/
+/*.react-datepicker__navigation-icon::before {*/
+/*  border-color: #1C1C1C !important;*/
+/*}*/
+
+/*!* TRIANGLE POINTER *!*/
+/*.react-datepicker__triangle {*/
+/*  display: none;*/
+/*}*/
+
+/*.form-control.custom-date-input::placeholder {*/
+/*  color: #f5a623 !important;   !* bright yellow *!*/
+/*  opacity: 1 !important;*/
+/*}*/
+
+/*input.custom-date-input::placeholder {*/
+/*  color: #f5a623 !important;*/
+/*}*/
+
+/*.custom-date-input {*/
+/*  color: white !important;*/
+/*}*/
+
+/*.date-label {*/
+/*  color: #f5a623;*/
+/*  font-size: 12px;*/
+/*  margin-bottom: 4px;*/
+/*  font-weight: 500;*/
+/*}*/
+/*.custom-date-input {*/
+/*  background-color: #1c1c1c !important;*/
+/*  color: white !important;*/
+/*  border: 1px solid #333 !important;*/
+/*}*/
+
+/*.custom-date-input::placeholder {*/
+/*  color: #bbb !important;   !* make visible *!*/
+/*  opacity: 1 !important;*/
+/*}*/
